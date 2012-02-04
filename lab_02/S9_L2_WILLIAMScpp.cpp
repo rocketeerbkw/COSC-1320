@@ -22,10 +22,9 @@
 using namespace std;
 
 int main() {
-  int stars = -1;
+  int stars = -1, spaces = 0; // Used to track number of stars per row
   double rows; // Use double to not lose precision when dividing
-  int spaces, userRows;
-  bool userRowsValid = false;
+  int userRows; // Use int so we can modulus the value
   
   // Get number of rows from the user
   do {
@@ -34,10 +33,10 @@ int main() {
     
     // Make sure it's an odd number
     if (userRows % 2 != 0) {
-      userRowsValid = true;
       rows = userRows;
+      break;
     }
-  } while (!userRowsValid);
+  } while (true);
   
   // Write out our diamond
   for (int row = 1; row <= rows; row++) {
@@ -46,6 +45,7 @@ int main() {
     // Get the number of spaces to pad the star with
     spaces = (rows - stars) / 2;
     
+    // Write out the current row
     for (int col = 1; col <= spaces + stars; col++) {
       if (col <= spaces) {
         cout << " ";
