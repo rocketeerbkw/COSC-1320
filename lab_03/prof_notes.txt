@@ -1,0 +1,5 @@
+Grade: 4.8/5
+
+L3: I like the public domain license. Nice use of ternary expression. Checks for div/0. Addition only. Does the 
+job.
+

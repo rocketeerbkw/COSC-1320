@@ -1,0 +1,6 @@
+Grade: 4.5/5
+
+L2: Beware the double-file extension: .cpp.cpp. Should handle ANY number of rows, odd or even. Checks for odd #. 
+Should prompt: Number of rows in diamond, not : an odd number. Nice use of ternary expression. (Could use 
+ternary in cout statement for either space or *.) Gives warning on Line #47. rows can be int, not double.
+

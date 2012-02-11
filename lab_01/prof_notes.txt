@@ -1,0 +1,4 @@
+Grade: 5/5
+
+L1: Good: nice header comment block, good formatting, pasted results at bottom. Better if setprecision(2) for 
+formatting: $xx.xx 
