@@ -1,0 +1,3 @@
+Grade: 6.5/10
+
+L7: late: 3/7 after exam1. totalCost should not be in class Inventory, as it depends on quantity and cost. It can become stale. Although computers start counting at item #1, people are more accustomed to starting at item #1. Otherwise, it all looks good. Uses class, getters, setters, array of class items. Loads and displays.

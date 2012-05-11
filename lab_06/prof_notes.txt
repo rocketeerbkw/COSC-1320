@@ -1,0 +1,3 @@
+Grade: 7/10
+
+L6: Good. Submitted 3/3, after X1. Does the job. Why does calculateCharges have bool outpatient, but never uses it? Good default parms. Better if doesn't exit, but rather sets error flags if bad input. With error flags, you can better control flow of control and error handling.

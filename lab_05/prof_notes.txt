@@ -1,0 +1,3 @@
+Grade: 4.5/5
+
+L5: No output at bottom. Better if uses input while data exists to drive a loop that reads the file. (What if more data added to file?) Year should start at 1900, not 1990. Nice column chart, well formatted.
